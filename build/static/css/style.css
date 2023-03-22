@@ -1,0 +1,73 @@
+.bg {
+    font-family: sans-serif;
+    /* background-color: #f9f9f9; */
+    background-image: url("/home/mridul/Projects/whetherapp/static/img/bgimg.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgba(48, 51, 201, 0.8);
+    background-position: center center;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+input[type="text"] {
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+button[type="submit"] {
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p.error-message {
+    color: red;
+    margin-top: 1em;
+    text-align: center;
+
+}
+
+.result {
+    /* margin: 0 auto; */
+    /* .result { */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+      /* } */
+      
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em; */
+}
